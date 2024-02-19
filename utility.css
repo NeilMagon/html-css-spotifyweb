@@ -66,6 +66,9 @@
  /*----------------
      TIPOGRAPHY
  ----------------*/
+ .text-center{
+    text-align: center;
+ }
  /*----------------
      PADDING
  ----------------*/
@@ -92,6 +95,12 @@
  ----------------*/
  .padding-r-5{
     padding-right: .3125rem;
+ }
+ /*----------------
+     PADDING-LEFT
+ ----------------*/
+ .padding-l-15{
+    padding-left: .9375rem;
  }
  /*----------------
      MARGIN

@@ -54,13 +54,11 @@
 }
 #menu h4{
     padding-top: 1.25rem;
-    padding-bottom: .9375rem
+    padding-bottom: .9375rem;
+    text-align: center;
  }
  #menu p{
     color: #7d7f84;
- }
- #menu h4, #menu p{
-    text-align: center;
  }
  /*----------------
      FOOTER
