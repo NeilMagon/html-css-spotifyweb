@@ -69,6 +69,9 @@
     color: #fff;
     font-weight: 700;
 }
+#main-top button:hover{
+    padding: 1rem 3rem;
+}
 /*----------------
      MAIN-MENU
  ----------------*/
@@ -125,6 +128,9 @@
  }
  .big{
     font-size: 1.875rem;
+ }
+ .big:hover{
+    font-size: 2.5rem;
  }
 
  /*----------------
