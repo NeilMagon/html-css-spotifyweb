@@ -11,9 +11,6 @@
     padding-right: 1.25rem;
  }
 /*----------------
-     MAIN
- ----------------*/
-/*----------------
      MAIN-ASIDE
  ----------------*/
  #aside {
@@ -37,6 +34,9 @@
  #aside .profile{
     clip-path: circle();
     background-color: #808080;
+ }
+ .b-hover:hover{
+    border-left: .0625rem solid #adff2f;
  }
  .dowload{
     width: 1.25rem;
@@ -83,8 +83,9 @@
     font-weight: 700;
     font-size: 14px;
  }
-#menu li{
-    cursor: pointer;
+#menu li:hover{
+    border-bottom: .0625rem solid;
+    border-color: #adff2f;
  }
 #menu .col{
     width: calc(100% / 6);
@@ -117,6 +118,10 @@
  }
  #left i, #left p{
     color: #878787;
+ }
+ #left i:hover, #left p:hover{
+    color: #fff;
+    cursor: pointer;
  }
  .big{
     font-size: 1.875rem;

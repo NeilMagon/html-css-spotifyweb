@@ -31,6 +31,10 @@
  .c-pointer{
     cursor: pointer;
  }
+ li:hover, p:hover{
+    cursor: pointer;
+    color: #fff;
+ }
 /*----------------
      FLEX
  ----------------*/
@@ -65,7 +69,7 @@
     cursor: pointer;
  }
  /*----------------
-     UTILITY
+     HOVER
  ----------------*/
  /*----------------
      TIPOGRAPHY
@@ -126,4 +130,7 @@
  ----------------*/
 .margin-b-0{
     margin-bottom: 0;
+}
+.margin-10{
+    margin: .625rem 0;
 }
