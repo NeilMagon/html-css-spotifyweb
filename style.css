@@ -35,12 +35,12 @@
  #aside li{
     padding: .625rem 0;
  }
- #aside H5{
-    color: #fff;
- }
  #aside .profile{
     clip-path: circle();
     background-color: #808080;
+ }
+ #aside hr{
+    margin: .625rem 0;
  }
 /*----------------
      MAIN-TOP
@@ -93,9 +93,16 @@
  footer{
     height: 5rem;
     background-color: #282828;
+    padding: 1.25rem .625rem;
  }
  footer img{
     max-width: 40px;
+ }
+ #left i{
+    padding: 0 .625rem;
+ }
+ #left i, #left p{
+    color: #878787;
  }
 
  /*----------------

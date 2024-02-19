@@ -72,6 +72,9 @@
  .text-center{
     text-align: center;
  }
+ H5{
+    color: #fff;
+ }
  /*----------------
      PADDING
  ----------------*/
@@ -104,6 +107,9 @@
  ----------------*/
  .padding-r-5{
     padding-right: .3125rem;
+ }
+ .padding-r-30{
+    padding-right: 1.875rem;
  }
  /*----------------
      PADDING-LEFT
