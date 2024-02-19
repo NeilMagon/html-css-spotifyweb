@@ -62,6 +62,7 @@
     border: none;
     background-color: transparent;
     font-family: inherit;
+    cursor: pointer;
  }
  /*----------------
      UTILITY

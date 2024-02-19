@@ -42,6 +42,14 @@
  #aside hr{
     margin: .625rem 0;
  }
+ #aside button{
+    width: 2.375rem;
+    height: 2.375rem;
+    background-color: #a3a3a3;
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-right: .625rem;
+ }
 /*----------------
      MAIN-TOP
 ----------------*/
