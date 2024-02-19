@@ -147,5 +147,8 @@
     }
     #aside .logo-small{
         display: block
-     }
+    }
+    #left i{
+        display: block;
+    }
  }
