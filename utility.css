@@ -16,9 +16,31 @@
     display: flex;
     flex-wrap: wrap;
  }
+ img{
+    max-width: 100%;
+ }
  /*----------------
      COL
  ----------------*/
+/*----------------
+     FLEX
+ ----------------*/
+ .flex-column{
+    flex-direction: column;
+ }
+ .dis-flex{
+    display: flex;
+ }
+ .justify-end{
+    justify-content: flex-end;
+ }
+  /*----------------
+     BTN
+ ----------------*/
+ button{
+    border: none;
+    background-color: transparent;
+ }
  /*----------------
      UTILITY
  ----------------*/
@@ -28,6 +50,24 @@
  /*----------------
      PADDING
  ----------------*/
+ /*----------------
+     PADDING-TOP
+ ----------------*/
+ .padding-t-20{
+    padding-top: 1.25rem;
+ }
+ /*----------------
+     PADDING-BOT
+ ----------------*/
+ .padding-b-30{
+    padding-bottom: 1.875rem;
+ }
+ /*----------------
+     PADDING-RIGHT
+ ----------------*/
+ .padding-r-5{
+    padding-right: .3125rem;
+ }
  /*----------------
      MARGIN
  ----------------*/

@@ -1,12 +1,35 @@
-/*----------------
-     MAIN-ASIDE
- ----------------*/
- /*----------------
-     MAIN-TOP
- ----------------*/
  /*----------------
      MAIN
  ----------------*/
+ main{
+    height: calc(100vh - 5rem);
+    background-color: blue;
+    overflow-y: auto;
+ }
+/*----------------
+     MAIN-ASIDE
+ ----------------*/
+ #aside{
+    width: 14.375rem;
+    background-color: black;
+ }
+ /*----------------
+     MAIN-TOP
+ ----------------*/
+ #main-top{
+    background-color: #080b12;
+ }
+ #main-top button{
+    padding: .9375rem 2.5rem;
+    border-radius: 1.875rem;
+    border: .0625rem solid #fff;
+    color: #fff;
+    font-weight: 700;
+ }
  /*----------------
      FOOTER
  ----------------*/
+ footer{
+    height: 5rem;
+    background-color: grey;
+ }
