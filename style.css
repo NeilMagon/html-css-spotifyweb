@@ -1,4 +1,10 @@
- /*----------------
+/*----------------
+     CONTAINER
+ ----------------*/
+ .container{
+    max-width: 1200px;
+ }
+/*----------------
      MAIN
  ----------------*/
  main{
@@ -14,6 +20,10 @@
  ----------------*/
  #main-top{
     background-color: #080b12;
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 999;
  }
  #main-top button{
     padding: .9375rem 2.5rem;
@@ -25,6 +35,9 @@
  /*----------------
      MAIN-MENU
  ----------------*/
+ #menu{
+    color: #fff;
+ }
  #menu nav{
     color: #797c80;
     font-weight: 700;
@@ -32,6 +45,22 @@
  }
  #menu li{
     cursor: pointer;
+ }
+ #menu .col{
+    width: calc(100% / 6);
+ }
+ #menu h1, #menu .col {
+    padding: 1.875rem .9375rem;
+}
+#menu h4{
+    padding-top: 1.25rem;
+    padding-bottom: .9375rem
+ }
+ #menu p{
+    color: #7d7f84;
+ }
+ #menu h4, #menu p{
+    text-align: center;
  }
  /*----------------
      FOOTER

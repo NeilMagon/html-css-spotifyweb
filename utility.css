@@ -31,9 +31,6 @@
  .c-pointer{
     cursor: pointer;
  }
- /*----------------
-     COL
- ----------------*/
 /*----------------
      FLEX
  ----------------*/
@@ -87,8 +84,8 @@
  .padding-b-30{
     padding-bottom: 1.875rem;
  }
- .padding-b-50{
-    padding-bottom: 3.125rem;
+ .padding-b-20{
+    padding-bottom: 1.25rem;
  }
  /*----------------
      PADDING-RIGHT
