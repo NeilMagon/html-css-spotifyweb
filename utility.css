@@ -12,6 +12,13 @@
  body{
     font-family: "Montserrat", sans-serif;
  }
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ /*----------------
+     COL
+ ----------------*/
  /*----------------
      UTILITY
  ----------------*/
