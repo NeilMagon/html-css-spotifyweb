@@ -97,6 +97,9 @@
  /*----------------
      PADDING-BOT
  ----------------*/
+ .padding-b-10{
+    padding-bottom: .625rem;
+ }
  .padding-b-20{
     padding-bottom: 1.25rem;
  }

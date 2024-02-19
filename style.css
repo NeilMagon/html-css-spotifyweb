@@ -25,8 +25,11 @@
     background-color: #0000;
     color: #717171;
  }
- #aside .row > img{
+ #aside .logo-big{
     max-width: 8.125rem;
+ }
+ #aside .logo-small{
+    display: none
  }
  #aside img{
     max-width: 1.875rem;
@@ -40,7 +43,7 @@
     background-color: #808080;
  }
  #aside hr{
-    margin: .625rem 0;
+    margin-top: .625rem;
  }
  #aside button{
     width: 2.375rem;
@@ -137,5 +140,11 @@
     MEDIA-600
  ----------------*/
  @media screen and (max-width: 600px){
-    
+    #aside p, #aside h5, #aside nav, #aside button, #aside hr, #aside .logo-big{
+        display: none;
+    }
+    #aside .logo-small{
+        display: block
+     }
+
  }
