@@ -3,16 +3,12 @@
  ----------------*/
  main{
     height: calc(100vh - 5rem);
-    background-color: blue;
+    background-color: #141922;
     overflow-y: auto;
  }
 /*----------------
      MAIN-ASIDE
  ----------------*/
- #aside{
-    width: 14.375rem;
-    background-color: black;
- }
  /*----------------
      MAIN-TOP
  ----------------*/
@@ -25,6 +21,17 @@
     border: .0625rem solid #fff;
     color: #fff;
     font-weight: 700;
+ }
+ /*----------------
+     MAIN-MENU
+ ----------------*/
+ #menu nav{
+    color: #797c80;
+    font-weight: 700;
+    font-size: 14px;
+ }
+ #menu li{
+    cursor: pointer;
  }
  /*----------------
      FOOTER
