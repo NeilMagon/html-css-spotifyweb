@@ -13,16 +13,11 @@
 /*----------------
      MAIN
  ----------------*/
- main{
-    height: calc(100vh - 5rem);
-    background-color: #141922;
-    overflow-y: auto;
- }
 /*----------------
      MAIN-ASIDE
  ----------------*/
  #aside {
-    background-color: #0000;
+    background-color: black;
     color: #717171;
  }
  #aside .logo-big{
@@ -79,6 +74,9 @@
  ----------------*/
 #menu{
     color: #fff;
+    background-color: #141922;
+    height: calc(100vh - 5rem);
+    overflow-y: auto;
  }
 #menu nav{
     color: #797c80;
@@ -150,5 +148,4 @@
     #aside .logo-small{
         display: block
      }
-
  }
