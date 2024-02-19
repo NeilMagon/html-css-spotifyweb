@@ -2,7 +2,13 @@
      CONTAINER
  ----------------*/
  .container{
-    max-width: 1200px;
+    max-width: 1100px;
+ }
+ .container-aside{
+    max-width: 14.375rem;
+    padding-top: 1.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
  }
 /*----------------
      MAIN
@@ -15,41 +21,62 @@
 /*----------------
      MAIN-ASIDE
  ----------------*/
- /*----------------
+ #aside {
+    background-color: #0000;
+    color: #717171;
+ }
+ #aside .row > img{
+    max-width: 8.125rem;
+ }
+ #aside img{
+    max-width: 1.875rem;
+    padding-right: .3125rem;
+ }
+ #aside li{
+    padding: .625rem 0;
+ }
+ #aside H5{
+    color: #fff;
+ }
+ #aside .profile{
+    clip-path: circle();
+    background-color: #808080;
+ }
+/*----------------
      MAIN-TOP
- ----------------*/
- #main-top{
+----------------*/
+#main-top{
     background-color: #080b12;
     position: sticky;
     top: 0;
     right: 0;
     z-index: 999;
- }
- #main-top button{
+}
+#main-top button{
     padding: .9375rem 2.5rem;
     border-radius: 1.875rem;
     border: .0625rem solid #fff;
     color: #fff;
     font-weight: 700;
- }
- /*----------------
+}
+/*----------------
      MAIN-MENU
  ----------------*/
- #menu{
+#menu{
     color: #fff;
  }
- #menu nav{
+#menu nav{
     color: #797c80;
     font-weight: 700;
     font-size: 14px;
  }
- #menu li{
+#menu li{
     cursor: pointer;
  }
- #menu .col{
+#menu .col{
     width: calc(100% / 6);
  }
- #menu h1, #menu .col {
+#menu h1, #menu .col {
     padding: 1.875rem .9375rem;
 }
 #menu h4{
@@ -65,8 +92,12 @@
  ----------------*/
  footer{
     height: 5rem;
-    background-color: grey;
+    background-color: #282828;
  }
+ footer img{
+    max-width: 40px;
+ }
+
  /*----------------
     MEDIA-1100
  ----------------*/

@@ -43,6 +43,9 @@
  .align-center{
     align-items: center;
  }
+ .justify-sp-between{
+    justify-content: space-between;
+ }
  .justify-center{
     justify-content: center;
  }
@@ -72,6 +75,9 @@
  /*----------------
      PADDING
  ----------------*/
+ .padding-10{
+    padding: .625rem 0;
+ }
  /*----------------
      PADDING-TOP
  ----------------*/
@@ -81,14 +87,17 @@
  .padding-t-25{
     padding-top: 1.5625rem;
  }
+ .padding-t-30{
+    padding-top: 1.875rem;
+ }
  /*----------------
      PADDING-BOT
  ----------------*/
- .padding-b-30{
-    padding-bottom: 1.875rem;
- }
  .padding-b-20{
     padding-bottom: 1.25rem;
+ }
+ .padding-b-30{
+    padding-bottom: 1.875rem;
  }
  /*----------------
      PADDING-RIGHT
@@ -105,3 +114,6 @@
  /*----------------
      MARGIN
  ----------------*/
+.margin-b-0{
+    margin-bottom: 0;
+}
