@@ -95,14 +95,18 @@
     background-color: #282828;
     padding: 1.25rem .625rem;
  }
+ footer i{
+    padding: 0 .625rem;
+    color: #fff;
+ }
  footer img{
     max-width: 40px;
  }
- #left i{
-    padding: 0 .625rem;
- }
  #left i, #left p{
     color: #878787;
+ }
+ .big{
+    font-size: 1.875rem;
  }
 
  /*----------------
