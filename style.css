@@ -33,7 +33,8 @@
  }
  #aside img{
     max-width: 1.875rem;
-    padding-right: .3125rem;
+    padding: .3125rem;
+    margin-right: .3125rem;
  }
  #aside li{
     padding: .625rem 0;
