@@ -9,7 +9,6 @@
    padding-top: 1.25rem;
    padding-left: 1.25rem;
    padding-right: 1.25rem;
-   height: 100%;
  }
 /*----------------
      HEADER-ASIDE
@@ -38,7 +37,7 @@
  #aside .name-playlist li{
     padding: .625rem 0;
  }
- #aside .name-playlist{
+ #aside .name-playlist {
    flex-grow: 1;
    overflow-y: auto;
 }
@@ -74,6 +73,7 @@
 ----------------*/
 #main-top{
     background-color: #080b12;
+    height: 6.25rem;
     position: sticky;
     top: 0;
     right: 0;
@@ -100,6 +100,7 @@
     color: #797c80;
     font-weight: 700;
     font-size: 14px;
+    height: 1.875rem;
  }
 #menu li:hover{
     border-bottom: .0625rem solid;
@@ -137,7 +138,7 @@
  #left i, #left p{
     color: #878787;
  }
- #left i:hover, #left p:hover{
+ #left i:hover, #left p:hover, footer i{
     color: #fff;
     cursor: pointer;
  }
