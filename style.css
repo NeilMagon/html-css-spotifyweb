@@ -19,6 +19,7 @@
     color: #717171;
     width: 250px;
     flex-shrink: 0;
+    overflow-y: auto;
  }
  #aside img{
    width: 1.875rem;
@@ -158,6 +159,9 @@
 .bar-inside-sound{
    width: 5rem;
    background-color: #c1c1c1;
+}
+.bar-inside-sound:hover{
+   background-color: lime;
 }
 .bar-right{
    width: 6.5rem;
