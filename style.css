@@ -157,6 +157,8 @@
  }
  .big{
     font-size: 1.875rem;
+    height: 40px;
+    width: 50px;
  }
  .big:hover{
     font-size: 2.5rem;
