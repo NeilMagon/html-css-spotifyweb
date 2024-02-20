@@ -137,3 +137,13 @@
 .margin-t-20{
    margin-top: 1.25rem;
 }
+ /*----------------
+     POSITION
+ ----------------*/
+ .pos-relative{
+   position: relative;
+ }
+ .pos-absolute{
+   position: absolute;
+   top: 0;
+ }
