@@ -9,6 +9,7 @@
    padding-top: 1.25rem;
    padding-left: 1.25rem;
    padding-right: 1.25rem;
+   height: 100%;
  }
 /*----------------
      HEADER-ASIDE
@@ -19,16 +20,16 @@
     width: 250px;
     flex-shrink: 0;
  }
+ #aside img{
+   width: 1.875rem;
+   padding: .3125rem;
+   margin-right: .3125rem;
+}
  #aside .logo-big{
    width: 9rem;
  }
  #aside .logo-small{
     display: none;
- }
- #aside img{
-    width: 1.875rem;
-    padding: .3125rem;
-    margin-right: .3125rem;
  }
  #aside .main-nav li{
    padding: .3125rem 0;
@@ -169,19 +170,26 @@
    header{
       width: 3.125rem;
    }
-    #aside p, #aside h5, #aside .name-playlist, #aside button, #aside hr, #aside .logo-big{
+   .container-aside{
+      padding-top: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    #aside p, #aside h5, #aside .name-playlist, #aside button, #aside hr, #aside .logo-big, #aside span{
         display: none;
     }
     #aside .logo-small{
-        display: block
+         display: block;
+         width: 3.125rem;
     }
     #left i{
         display: block;
     }
     #aside img{
-      width: 1.875rem;
-      padding: .3125rem;
-      margin-right: .3125rem;
-   }
-
+      margin-left: 10px;
+    }
+    #aside .logo-small{
+      margin-left: 0;
+    }
+ }
  }
