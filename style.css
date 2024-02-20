@@ -2,44 +2,49 @@
      CONTAINER
  ----------------*/
  .container{
-    max-width: 1100px;
+   height: calc(100vh - 5rem);
+   display: flex;
  }
  .container-aside{
-    max-width: 14.375rem;
-    padding-top: 1.25rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+   padding-top: 1.25rem;
+   padding-left: 1.25rem;
+   padding-right: 1.25rem;
  }
 /*----------------
-     MAIN-ASIDE
+     HEADER-ASIDE
  ----------------*/
- #aside {
+ header {
     background-color: black;
     color: #717171;
+    width: 250px;
+    flex-shrink: 0;
  }
  #aside .logo-big{
-    max-width: 8.125rem;
+   width: 9rem;
  }
  #aside .logo-small{
-    display: none
+    display: none;
  }
  #aside img{
-    max-width: 1.875rem;
+    width: 1.875rem;
     padding: .3125rem;
     margin-right: .3125rem;
  }
- #aside li{
+ #aside .main-nav li{
+   padding: .3125rem 0;
+}
+ #aside .name-playlist li{
     padding: .625rem 0;
  }
- #aside .profile{
-    clip-path: circle();
-    background-color: #808080;
- }
+ #aside .name-playlist{
+   flex-grow: 1;
+   overflow-y: auto;
+}
  .b-hover:hover{
     border-left: .0625rem solid #adff2f;
  }
  .dowload{
-    width: 1.25rem;
+    width: 1.7rem;
  }
  #aside hr{
     margin-top: .625rem;
@@ -51,6 +56,16 @@
     font-size: 1.875rem;
     font-weight: 700;
     margin-right: .625rem;
+ }
+ #aside .profile{
+   clip-path: circle();
+   background-color: #808080;
+}
+ /*----------------
+     MAIN
+ ----------------*/
+ main{
+   overflow-y: auto;
  }
 /*----------------
      MAIN-TOP
@@ -78,8 +93,6 @@
 #menu{
     color: #fff;
     background-color: #141922;
-    height: calc(100vh - 5rem);
-    overflow-y: auto;
  }
 #menu nav{
     color: #797c80;
@@ -153,7 +166,10 @@
     MEDIA-600
  ----------------*/
  @media screen and (max-width: 600px){
-    #aside p, #aside h5, #aside nav, #aside button, #aside hr, #aside .logo-big{
+   header{
+      width: 3.125rem;
+   }
+    #aside p, #aside h5, #aside .name-playlist, #aside button, #aside hr, #aside .logo-big{
         display: none;
     }
     #aside .logo-small{
@@ -162,4 +178,10 @@
     #left i{
         display: block;
     }
+    #aside img{
+      width: 1.875rem;
+      padding: .3125rem;
+      margin-right: .3125rem;
+   }
+
  }

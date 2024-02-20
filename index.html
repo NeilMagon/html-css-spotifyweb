@@ -18,32 +18,27 @@
     <title>Spotify</title>
 </head>
 <body>
-    <!-- MAIN -->
-    <main>
-        <!-- MAIN-ASIDE -->
-        <aside id="aside">
-            <div class="container-aside">
+    <div class="container">
+        <!-- HEADER -->
+        <header>
+            <!-- HEADER-ASIDE -->
+            <div id="aside" class="container-aside">
                 <div class="row flex-column">
                     <img class="padding-b-30 logo-big" src="img/logo.svg" alt="logo">
                     <img class="logo-small padding-b-20" src="img/logo-small.svg" alt="logo">
-                    <div class="dis-flex align-center b-hover">
-                        <img src="img/home.svg" alt="home">
-                        <p>Home</p>
-                    </div>
-                    <div class="dis-flex align-center margin-10 b-hover">
-                        <img src="img/search.svg" alt="search">
-                        <p>Cerca</p>
-                    </div>
-                    <div class="dis-flex align-center b-hover">
-                        <img src="img/libreria.svg" alt="library">
-                        <p>La tua libreria</p>
-                    </div>
+                    <nav class="margin-t-20 main-nav">
+                        <ul>
+                            <li class="align-center dis-flex"><img src="img/home.svg" alt="home"> Home</li>
+                            <li class="align-center dis-flex"><img src="img/search.svg" alt="search"> Search</li>
+                            <li class="align-center dis-flex"><img src="img/libreria.svg" alt="library"> La tua libreria</li>
+                        </ul>
+                    </nav>
                     <h5 class="padding-t-30 padding-b-20">PLAYLIST</h5>
                     <div class="align-center dis-flex">
                         <button>+</button>
                         <p>Crea Playlist</p>
                     </div>
-                    <nav>
+                    <nav class="name-playlist dis-flex">
                         <ul>
                             <li>Nome Playlist</li>
                             <li>Nome Playlist</li>
@@ -54,7 +49,7 @@
                             <li>Nome Playlist</li>
                         </ul>
                     </nav>
-                    <div class="margin-b-0">
+                    <div class="margin-t-0">
                         <div class="dis-flex align-center">
                             <img class="dowload" src="img/download.svg" alt="dowload">
                             <p>Installa app</p>
@@ -67,92 +62,96 @@
                     </div>
                 </div>
             </div>
-        </aside>
-        <!-- /MAIN-ASIDE -->
-        <!-- MAIN-TOP -->
-        <section id="main-top">
-            <div class="padding-t-20 padding-b-30 justify-end dis-flex padding-r-5">
-                <button>EFFETTUA L'UPGRADE</button>
-            </div>
-        </section>
-        <!-- MAIN-TOP -->
-        <!-- MENU -->
-        <section id="menu">
-            <div class="row justify-center padding-t-25 padding-b-20">
-                <nav>
-                    <ul class="row gap-20 justify-center">
-                        <li><a href="#"></a>IN EVIDENZA</li>
-                        <li><a href="#"></a>PODCAST</li>
-                        <li><a href="#"></a>CLASSIFICHE</li>
-                        <li><a href="#"></a>GENERI E MOOD</li>
-                        <li><a href="#"></a>NUOVE USCITE</li>
-                        <li><a href="#"></a>SCOPRI</li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="container">
-                <h1>Recently played</h1>
-                <div class="row text-center">
-                    <div class="col">
-                        <img src="img/metal_lifting.jpg" alt="metal">
-                        <h4>Heavy Metal</h4>
-                        <p>Subtitle</p>
+            <!-- /HEADER-ASIDE -->
+        </header>
+        <!-- /HEADER -->
+        <!-- MAIN -->
+        <main>
+            <!-- MAIN-TOP -->
+            <section id="main-top">
+                <div class="padding-t-20 padding-b-30 justify-end dis-flex padding-r-5">
+                    <button>EFFETTUA L'UPGRADE</button>
+                </div>
+            </section>
+            <!-- MAIN-TOP -->
+            <!-- MENU -->
+            <section id="menu">
+                <div class="row justify-center padding-t-25 padding-b-20">
+                    <nav>
+                        <ul class="row gap-20 justify-center">
+                            <li><a href="#"></a>IN EVIDENZA</li>
+                            <li><a href="#"></a>PODCAST</li>
+                            <li><a href="#"></a>CLASSIFICHE</li>
+                            <li><a href="#"></a>GENERI E MOOD</li>
+                            <li><a href="#"></a>NUOVE USCITE</li>
+                            <li><a href="#"></a>SCOPRI</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <h1>Recently played</h1>
+                    <div class="row text-center">
+                        <div class="col">
+                            <img src="img/metal_lifting.jpg" alt="metal">
+                            <h4>Heavy Metal</h4>
+                            <p>Subtitle</p>
+                        </div>
+                        <div class="col">
+                            <img src="img/stranger.jpeg" alt="stranger-things">
+                            <h4>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
+                            <p>Kyle Dixon & Michael Stein</p>
+                        </div>
+                        <div class="col">
+                            <img src="img/aquietplace.jpeg" alt="quiet-place">
+                            <h4>A quiet place</h4>
+                            <p>Subtitle</p>
+                        </div>
+                        <div class="col">
+                            <img src="img/split.jpeg" alt="split">
+                            <h4>Split</h4>
+                            <p>Subtitle</p>
+                        </div>
+                        <div class="col">
+                            <img src="img/cure.jpeg" alt="cure">
+                            <h4>A cure for wellness</h4>
+                            <p>Subtitle</p>
+                        </div>
+                        <div class="col">
+                            <img src="img/sinister.jpeg" alt="sinister">
+                            <h4>Sinister</h4>
+                            <p>Subtitle</p>
+                        </div>
                     </div>
-                    <div class="col">
-                        <img src="img/stranger.jpeg" alt="stranger-things">
-                        <h4>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
-                        <p>Kyle Dixon & Michael Stein</p>
+                    <h1>Recently played</h1>
+                    <p class="padding-l-15">Più ascolti, più accurati saranno i suggerimenti</p>
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/radar.jpeg" alt="radar">
+                            <h4>Release Radar</h4>
+                        </div>
+                        <div class="col">
+                            <img src="img/mixdaily.jpeg" alt="daily-mix">
+                            <h4>Daily-mix</h4>
+                        </div>
                     </div>
-                    <div class="col">
-                        <img src="img/aquietplace.jpeg" alt="quiet-place">
-                        <h4>A quiet place</h4>
-                        <p>Subtitle</p>
-                    </div>
-                    <div class="col">
-                        <img src="img/split.jpeg" alt="split">
-                        <h4>Split</h4>
-                        <p>Subtitle</p>
-                    </div>
-                    <div class="col">
-                        <img src="img/cure.jpeg" alt="cure">
-                        <h4>A cure for wellness</h4>
-                        <p>Subtitle</p>
-                    </div>
-                    <div class="col">
-                        <img src="img/sinister.jpeg" alt="sinister">
-                        <h4>Sinister</h4>
-                        <p>Subtitle</p>
+                    <h1>Artisti più popolari</h1>
+                    <p class="padding-l-15">Più ascolti, più accurati saranno i suggerimenti</p>
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/youg.jpeg" alt="young">
+                            <h4>Lana del Rey</h4>
+                        </div>
+                        <div class="col">
+                            <img src="img/einaudi.jpeg" alt="einaudi">
+                            <h4>Ludovico Einaudi</h4>
+                        </div>
                     </div>
                 </div>
-                <h1>Recently played</h1>
-                <p class="padding-l-15">Più ascolti, più accurati saranno i suggerimenti</p>
-                <div class="row">
-                    <div class="col">
-                        <img src="img/radar.jpeg" alt="radar">
-                        <h4>Release Radar</h4>
-                    </div>
-                    <div class="col">
-                        <img src="img/mixdaily.jpeg" alt="daily-mix">
-                        <h4>Daily-mix</h4>
-                    </div>
-                </div>
-                <h1>Artisti più popolari</h1>
-                <p class="padding-l-15">Più ascolti, più accurati saranno i suggerimenti</p>
-                <div class="row">
-                    <div class="col">
-                        <img src="img/youg.jpeg" alt="young">
-                        <h4>Lana del Rey</h4>
-                    </div>
-                    <div class="col">
-                        <img src="img/einaudi.jpeg" alt="einaudi">
-                        <h4>Ludovico Einaudi</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- MENU -->
-    </main>
-    <!-- /MAIN -->
+            </section>
+            <!-- MENU -->
+        </main>
+        <!-- /MAIN -->
+    </div>
     <!-- FOOTER -->
     <footer>
         <div class="row justify-sp-between align-center">
