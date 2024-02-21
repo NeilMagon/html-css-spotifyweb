@@ -70,9 +70,6 @@
     cursor: pointer;
  }
  /*----------------
-     HOVER
- ----------------*/
- /*----------------
      TIPOGRAPHY
  ----------------*/
  .text-center{
@@ -147,4 +144,5 @@
  .pos-absolute{
    position: absolute;
    top: 0;
+   left: 0;
  }
