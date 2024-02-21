@@ -120,6 +120,9 @@
  #menu p{
     color: #7d7f84;
  }
+ .circle{
+   clip-path: circle();
+ }
  .pos-relative:hover .opacity{
    display: flex;
    justify-content: center;
