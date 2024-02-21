@@ -9,6 +9,8 @@
    padding-top: 1.25rem;
    padding-left: 1.25rem;
    padding-right: 1.25rem;
+   height: 100%;
+   overflow-y: hidden;
  }
 /*----------------
      HEADER-ASIDE
@@ -18,7 +20,6 @@
     color: #717171;
     width: 250px;
     flex-shrink: 0;
-    overflow-y: auto;
  }
  #aside img{
    width: 1.875rem;
