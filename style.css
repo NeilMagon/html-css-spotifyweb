@@ -73,7 +73,7 @@
      MAIN-TOP
 ----------------*/
 #main-top{
-    background-color: #080b12;
+    background-color: rgba(0, 0, 0, 0.9);
     height: 6.25rem;
     position: sticky;
     top: 0;
