@@ -1,4 +1,17 @@
 /*----------------
+     SCROLL-BAR
+ ----------------*/
+.container ::-webkit-scrollbar {
+   width: 12px;
+   }
+.container ::-webkit-scrollbar-track {
+   background-color: #ccc;
+   box-shadow: rgba(0, 0, 0, 0.5);
+   }
+.container ::-webkit-scrollbar-thumb {
+   background-color: #699078;
+   }
+/*----------------
      CONTAINER
  ----------------*/
  .container{
